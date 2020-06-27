@@ -68,10 +68,10 @@
         <div class="padding-nav">
           <!-- padding-nav div starts here -->
           <ul class="nav navbar-nav navbar-left">
-            <li class="active">
+            <li class="">
               <a href="index.php">Home</a>
             </li>
-            <li class="">
+            <li class="active">
               <a href="shop.php">Shop</a>
             </li>
             <li class="">
@@ -123,3 +123,41 @@
     </div><!-- container Div ends -->
 
   </div><!-- NavBar Div Ends -->
+
+
+
+
+
+  <!--***********************************-->
+  <!--      NEW SECTION  =========>>>>>>>>>=================================>>>>>>>>>>=====     -->
+  <!--***********************************-->
+
+
+<div id="content"><!-- Braedcroum section -->
+  <div class="container"><!-- container div start -->
+    <div class="col-md-12">
+      <ul class="breadcrumb">
+        <li><a href="index.php">Home</a></li>
+        <li>Shop</li>
+      </ul>
+    </div>
+    <div class="col-md-3">
+      <?php include("includes/sidebar.html") ?>
+    </div>
+  </div><!-- container div end -->
+</div><!-- Braedcroum section end-->
+
+
+
+  <!--***********************************-->
+  <!--      NEW SECTION  =========>>>>>>>>>=================================>>>>>>>>>>=====     -->
+  <!--***********************************-->
+
+
+
+
+  <!-- Footer Start -->
+  <?php
+  include("includes/footer.php");
+  ?>
+<!-- Footer Start -->
