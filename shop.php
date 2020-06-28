@@ -142,7 +142,39 @@
       </ul>
     </div>
     <div class="col-md-3">
-      <?php include("includes/sidebar.html") ?>
+      <?php include("includes/sidebar.php") ?>
+    </div>
+    <div class="col-md-9">
+      <div class="box"><!-- box div start -->
+        <h1>
+          Shop
+        </h1>
+        <p>
+          Let get started and lets just dive into the store guys.......
+        </p>
+      </div><!-- box div End -->
+      <br>
+      <div class="row"><!-- row div Start -->
+        <div class="col-md-4 col-sm-6 center responsive"><!-- col-md-4 col-sm-6 center responsive div Start -->
+          <div class="product"><!-- product div Start -->
+            <a href="details.php">
+              <img class="img-responsive" src="admin_area/product_images/Apple iphone 11 pro/1.jpeg" alt="">
+            </a>
+            <div class="text">
+              <h3>
+                <a href="details.php">
+                  Apple iphone 11 max pro
+                </a>
+              </h3>
+              <p class="price">INR 80,000</p>
+              <p class="buttons">
+                <a href="details.php" class="btn btn-default">View Details</a>
+                <a href="details.php" class="btn btn-primary"><i class="fa fa-shopping-cart"> </i>  Add To Cart</a>
+              </p>
+            </div>
+          </div><!-- product div End -->
+        </div><!-- col-md-4 col-sm-6 center responsive div End -->
+      </div><!-- row div End -->
     </div>
   </div><!-- container div end -->
 </div><!-- Braedcroum section end-->
@@ -160,4 +192,4 @@
   <?php
   include("includes/footer.php");
   ?>
-<!-- Footer Start -->
+<!-- Footer Ends -->
