@@ -368,7 +368,7 @@
 
     </div><!-- col-md-9 div end -->
   </div><!-- container div end -->
-</div><!-- Braedcroum section end-->
+</div><!-- content section end-->
 
 
 
