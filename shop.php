@@ -144,7 +144,7 @@
     <div class="col-md-3">
       <?php include("includes/sidebar.php") ?>
     </div>
-    <div class="col-md-9">
+    <div class="col-md-9"><!-- col-md-9 div start -->
       <div class="box"><!-- box div start -->
         <h1>
           Shop
@@ -176,7 +176,7 @@
         </div><!-- col-md-4 col-sm-6 center-responsive div End -->
       
       
-      <div class="col-md-4 col-sm-6 center-responsive"><!-- col-md-4 col-sm-6 center-responsive div Start -->
+        <div class="col-md-4 col-sm-6 center-responsive"><!-- col-md-4 col-sm-6 center-responsive div Start -->
           <div class="product"><!-- product div Start -->
             <a href="details.php">
               <img class="img-responsive" src="admin_area/product_images/Apple iphone 11 pro/1.jpeg" alt="">
@@ -353,7 +353,20 @@
 
 
       </div><!-- row div End -->
-    </div>
+      <center>
+        <ul class="pagination">
+          <li><a href="shop.php">First Page</a></li>
+          <li><a href="ahop.php">1</a></li>
+          <li><a href="ahop.php">2</a></li>
+          <li><a href="ahop.php">3</a></li>
+          <li><a href="ahop.php">4</a></li>
+          <li><a href="ahop.php">5</a></li>
+          <li><a href="ahop.php">Last Page</a></li>
+        </ul>
+      </center>
+
+
+    </div><!-- col-md-9 div end -->
   </div><!-- container div end -->
 </div><!-- Braedcroum section end-->
 
