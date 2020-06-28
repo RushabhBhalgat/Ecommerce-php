@@ -326,6 +326,24 @@ body{
 }
 
 
+/* shop product responsiveness */
+
+@media(max-width: 768px){
+    .center-responsive{
+        width: 70%;
+        margin: 0 auto;
+
+    }
+}
+
+@media(max-width: 550px){
+    .center-responsive{
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+
 
 
 
