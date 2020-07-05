@@ -151,7 +151,9 @@
 
 
             <div class="col-md-9">
+                <!--col-md-9 div start-->
                 <div class="row" id="productmain">
+                    <!--row div start-->
                     <div class="col-sm-6">
                         <div id="mainimage">
                             <div class="carousel slide" id="myCarousel" data-ride="carousel">
@@ -204,7 +206,9 @@
                         </div>
                     </div>
                 </div>
+                <!--row div end-->
             </div>
+            <!--col-md-9 div end-->
 
         </div><!-- container div end -->
     </div><!-- content section end-->
