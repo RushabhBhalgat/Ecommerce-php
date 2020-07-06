@@ -155,6 +155,7 @@
                 <div class="row" id="productmain">
                     <!--row div start-->
                     <div class="col-sm-6">
+                        <!-- col-sm-6 div start -->
                         <div id="mainimage">
                             <div class="carousel slide" id="myCarousel" data-ride="carousel">
                                 <ol class="carousel-indicators">
@@ -204,9 +205,157 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div><!-- col-sm-6 div End -->
+                    <div class="col-sm-6">
+                        <!-- col-sm-6 for the box start -->
+                        <div class="box">
+                            <!--box div start -->
+                            <h1 class="text-center">Apple Iphone 11 Max pro By Apple</h1>
+                            <form action="details.php" method="post" class="form-horizontal">
+                                <div class="form-group">
+                                    <label for="" class="col-md-5 control-label">
+                                        Product Quantity
+                                    </label>
+                                    <div class="col-md-7">
+                                        <select name="product_qty" id="" class="form-control">
+                                            <option value="">1</option>
+                                            <option value="">2</option>
+                                            <option value="">3</option>
+                                            <option value="">4</option>
+                                            <option value="">5</option>
+                                            <option value="">6</option>
+                                            <option value="">7</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="" class="col-md-5 control-label">
+                                        Product Specs
+                                    </label>
+                                    <div class="col-md-7">
+                                        <select class="form-control" name="product_size" id="">
+                                            <option value="">Select A Specification</option>
+                                            <option value="">2GB RAM 32GB storage</option>
+                                            <option value="">4GB RAM 64GB storage</option>
+                                            <option value="">6GB RAM 64GB storage</option>
+                                            <option value="">6GB RAM 128GB storage</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <p class="price">INR 105000</p>
+                                <p class="text-center buttons">
+                                    <button class="btn btn-primary" type="submit">
+                                        <i class="fa fa-shopping-cart"></i> Add To cart
+                                    </button>
+                                </p>
+                            </form>
+                        </div>
+                        <!--box div End -->
+
+                        <!-- ******** Below the box *********************** -->
+
+                        <div class="col-xs-4">
+                            <a href="#" class="thumb">
+                                <img src="admin_area/product_images/Apple iphone 11 pro/1.jpeg" class="img-responsive"
+                                    alt="product image">
+                            </a>
+                        </div>
+
+                        <div class="col-xs-4">
+                            <a href="#" class="thumb">
+                                <img src="admin_area/product_images/Apple iphone 11 pro/2.jpeg" class="img-responsive"
+                                    alt="product image">
+                            </a>
+                        </div>
+
+                        <div class="col-xs-4">
+                            <a href="#" class="thumb">
+                                <img src="admin_area/product_images/Apple iphone 11 pro/3.jpeg" class="img-responsive"
+                                    alt="product image">
+                            </a>
+                        </div>
+                    </div><!-- col-sm-6 for the box start -->
                 </div>
                 <!--row div end-->
+                <div class="box" id="details">
+                    <h4>Product Details</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam non magni, voluptates ut dolore
+                        quaerat illo esse qui dolores dolorem quidem itaque rerum ab eius perspiciatis magnam, nostrum
+                        nobis tempora.</p>
+                    <h4>Size</h4>
+                    <ul>
+                        <li>Small</li>
+                        <li>Medium</li>
+                        <li>Large</li>
+                        <li>Extra Large</li>
+                    </ul>
+                </div>
+                <div id="row same-height-row">
+                    <!-- row div start here -->
+                    <div class="col-md-3 col-sm-6">
+                        <!-- col-md-3 col-sm-6 div start here -->
+                        <div class="box same-height headline">
+                            <!-- box same-height headline div start here -->
+                            <h3 class="text-center">
+                                You might also like these products
+                            </h3>
+                        </div><!-- box same-height headline div Ends here -->
+                    </div><!-- col-md-3 col-sm-6 div End here -->
+                    <div class="center-responsive col-md-3">
+                        <!-- center-responsive col-md-3 div start here -->
+                        <div class="product same-height">
+                            <a href="">
+                                <img class="img-responsive"
+                                    src="admin_area/product_images/Corsair HS35 Stereo Gaming Headset - Headphones Designed for PC and Mobile – Green/1.jpg"
+                                    alt="">
+                            </a>
+                            <div class="text">
+                                <h3><a href="details.php">Corsair HS35 Stereo Gaming Headset - Headphones Designed for
+                                        PC and Mobile – Green</a></h3>
+                                <p class="price">
+                                    INR 500
+                                </p>
+                            </div>
+                        </div>
+                    </div><!-- center-responsive col-md-3 div Ends here -->
+
+                    <div class="center-responsive col-md-3">
+                        <!-- center-responsive col-md-3 div start here -->
+                        <div class="product same-height">
+                            <a href="">
+                                <img class="img-responsive"
+                                    src="admin_area/product_images/Corsair HS35 Stereo Gaming Headset - Headphones Designed for PC and Mobile – Green/1.jpg"
+                                    alt="">
+                            </a>
+                            <div class="text">
+                                <h3><a href="details.php">Corsair HS35 Stereo Gaming Headset - Headphones Designed for
+                                        PC and Mobile – Green</a></h3>
+                                <p class="price">
+                                    INR 500
+                                </p>
+                            </div>
+                        </div>
+                    </div><!-- center-responsive col-md-3 div Ends here -->
+
+                    <div class="center-responsive col-md-3">
+                        <!-- center-responsive col-md-3 div start here -->
+                        <div class="product same-height">
+                            <a href="">
+                                <img class="img-responsive"
+                                    src="admin_area/product_images/Corsair HS35 Stereo Gaming Headset - Headphones Designed for PC and Mobile – Green/1.jpg"
+                                    alt="">
+                            </a>
+                            <div class="text">
+                                <h3><a href="details.php">Corsair HS35 Stereo Gaming Headset - Headphones Designed for
+                                        PC and Mobile – Green</a></h3>
+                                <p class="price">
+                                    INR 500
+                                </p>
+                            </div>
+                        </div>
+                    </div><!-- center-responsive col-md-3 div Ends here -->
+
+                </div><!-- row div End here -->
             </div>
             <!--col-md-9 div end-->
 
