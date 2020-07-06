@@ -150,8 +150,70 @@
                     <form action="cart.php" method="post" class="" enctype="multipart-form-data">
                         <h1>Shopping Cart</h1>
                         <p class="text-muted">
-
+                            You Currently Have 4 Items In Your Cart
                         </p>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th colspan="2">Products</th>
+                                        <th>Quantity</th>
+                                        <th>Price</th>
+                                        <th>Size</th>
+                                        <th colspan="1">Delete</th>
+                                        <th colspan="1">Sub Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><img src="admin_area/product_images/Apple iphone 11 pro/1.jpeg" alt=""></td>
+                                        <td>Apple iPhone 11 max Pro by Apple Company</td>
+                                        <td>2</td>
+                                        <td>INR 50000</td>
+                                        <td>Large</td>
+                                        <td><input type="checkbox" name="remove[]" id=""></td>
+                                        <td>INR 100000</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><img src="admin_area/product_images/Apple iphone 11 pro/1.jpeg" alt=""></td>
+                                        <td>Apple iPhone 11 max Pro by Apple Company</td>
+                                        <td>2</td>
+                                        <td>INR 50000</td>
+                                        <td>Large</td>
+                                        <td><input type="checkbox" name="remove[]" id=""></td>
+                                        <td>INR 100000</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><img src="admin_area/product_images/Apple iphone 11 pro/1.jpeg" alt=""></td>
+                                        <td>Apple iPhone 11 max Pro by Apple Company</td>
+                                        <td>2</td>
+                                        <td>INR 50000</td>
+                                        <td>Large</td>
+                                        <td><input type="checkbox" name="remove[]" id=""></td>
+                                        <td>INR 100000</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><img src="admin_area/product_images/Apple iphone 11 pro/1.jpeg" alt=""></td>
+                                        <td>Apple iPhone 11 max Pro by Apple Company</td>
+                                        <td>2</td>
+                                        <td>INR 50000</td>
+                                        <td>Large</td>
+                                        <td><input type="checkbox" name="remove[]" id=""></td>
+                                        <td>INR 100000</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <th colspan="6">Total</th>
+                                        <th colspan="2">INR 120257</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+
                     </form>
                 </div>
             </div>

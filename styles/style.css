@@ -366,6 +366,11 @@ body{
 }
 
 
+/*Cart Page Styling part Has been started from here*/
+#content #cart .table tbody tr td img{
+    width: 50px;
+}
+
 
 
 /* footer style */
