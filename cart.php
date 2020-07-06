@@ -146,13 +146,17 @@
                 </ul>
             </div>
             <div class="col-md-9" id="cart">
+                <!-- col-md-9 div start -->
                 <div class="box">
+                    <!-- Box div start -->
                     <form action="cart.php" method="post" class="" enctype="multipart-form-data">
+                        <!-- Form Tag start -->
                         <h1>Shopping Cart</h1>
                         <p class="text-muted">
                             You Currently Have 4 Items In Your Cart
                         </p>
                         <div class="table-responsive">
+                            <!-- Table responsive div start -->
                             <table class="table">
                                 <thead>
                                     <tr>
@@ -212,9 +216,68 @@
                                     </tr>
                                 </tfoot>
                             </table>
+                        </div><!-- Table responsive div start -->
+                        <div class="box-footer">
+                            <div class="pull-left">
+                                <!-- pull-left div start -->
+                                <a href="index.php" class="btn btn-default">
+                                    <i class="fa fa-chevron-left"></i>Continue Shopping
+                                </a>
+                            </div><!-- pull-left div End -->
+                            <div class="pull-right">
+                                <!-- pull-right div start -->
+                                <button class="btn btn-default" type="submit" name="update" value="Update cart">
+                                    <i class="fa fa-refresh"></i>Update
+                                </button>
+                                <a href="checkout.php" class="btn btn-primary">
+                                    Proceed To Checkout <i class="fa fa-credit-card"></i>
+                                </a>
+                            </div><!-- pull-right div End -->
                         </div>
+                    </form><!-- Form Tag End -->
+                </div><!-- Box div End -->
 
-                    </form>
+            </div><!-- col-md-9 div End -->
+
+            <div class="col-md-3">
+                <!-- col-md-3 div End -->
+                <div id="order_summary" class="box">
+                    <div class="box-header">
+                        <h3>Order Summary</h3>
+                    </div>
+                    <p class="text-muted">Shipping And Additional Taxes Are Calculated based on the Products you buy</p>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        Order Subtotal
+                                    </td>
+                                    <th>INR 2184045</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Shipping And Handling Charge
+                                    </td>
+                                    <td>
+                                        INR 0
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        TAX
+                                    </td>
+                                    <td>
+                                        INR 0
+                                    </td>
+                                </tr>
+                                <tr class="total">
+                                    <td>Total</td>
+                                    <th>INR 2025432</th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
 
