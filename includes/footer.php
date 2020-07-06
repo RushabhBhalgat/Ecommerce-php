@@ -1,7 +1,11 @@
-<div id="footer"><!-- Footer div with id starts -->
-    <div class="container"><!-- Container div starts -->
-        <div class="row"><!-- Row div starts -->
-            <div class="col-md-3 col-sm-6"><!-- col-md-3 col-sm-6 div starts -->
+<div id="footer">
+    <!-- Footer div with id starts -->
+    <div class="container">
+        <!-- Container div starts -->
+        <div class="row">
+            <!-- Row div starts -->
+            <div class="col-md-3 col-sm-6">
+                <!-- col-md-3 col-sm-6 div starts -->
                 <h4>Pages</h4>
                 <ul>
                     <li><a href="index.php">Home</a></li>
@@ -20,47 +24,50 @@
                 <hr class="hidden-md hidden-lg hidden-sm">
             </div><!-- col-md-3 col-sm-6 div ENDS -->
 
-            <div class="col-md-3 col-sm-6"><!-- col-md-3 col-sm-6 div starts -->
-            <h4>Top Product Categories</h4>
-            <ul>
-                <li><a href="#">For Kids</a></li>
-                <li><a href="#">English Motivational</a></li>
-                <li><a href="#">Marathi Books</a></li>
-                <li><a href="#">Detective Books</a></li>
-                <li><a href="#">Fiction</a></li>
-                <li><a href="#">Non-Fiction</a></li>
-            </ul>
-            <hr>
-            <h4>Books By Autors</h4>
-            <ul>
-                <li><a href="#">Sudha Murthy</a></li>
-                <li><a href="#">Poulo Coelo</a></li>
-                <li><a href="#">Amish</a></li>
-                <li><a href="#">Charles Dickens</a></li>
-                <li><a href="#">Shakespear</a></li>
-            </ul>
-            <hr class="hidden-md hidden-lg"> 
+            <div class="col-md-3 col-sm-6">
+                <!-- col-md-3 col-sm-6 div starts -->
+                <h4>Top Product Categories</h4>
+                <ul>
+                    <li><a href="#">For Kids</a></li>
+                    <li><a href="#">English Motivational</a></li>
+                    <li><a href="#">Marathi Books</a></li>
+                    <li><a href="#">Detective Books</a></li>
+                    <li><a href="#">Fiction</a></li>
+                    <li><a href="#">Non-Fiction</a></li>
+                </ul>
+                <hr>
+                <h4>Books By Autors</h4>
+                <ul>
+                    <li><a href="#">Sudha Murthy</a></li>
+                    <li><a href="#">Poulo Coelo</a></li>
+                    <li><a href="#">Amish</a></li>
+                    <li><a href="#">Charles Dickens</a></li>
+                    <li><a href="#">Shakespear</a></li>
+                </ul>
+                <hr class="hidden-md hidden-lg">
 
             </div><!-- col-md-3 col-sm-6 div Ends -->
 
 
-            <div class="col-md-3 col-sm-6"><!-- col-md-3 col-sm-6 div Starts -->
+            <div class="col-md-3 col-sm-6">
+                <!-- col-md-3 col-sm-6 div Starts -->
                 <h4>Where To Find Us</h4>
                 <p>
-                <strong>
-                    ecom.com
-                </strong>
-                <br>ecom@ecom.com
-                <br>+91 9563176547  +91 6518761567
+                    <strong>
+                        ecom.com
+                    </strong>
+                    <br>ecom@ecom.com
+                    <br>+91 9563176547 +91 6518761567
                 </p>
                 <a href="contact.php">Go To Contact Us Page</a>
                 <hr class="hidden-md hidden-lg">
             </div><!-- col-md-3 col-sm-6 div Ends -->
 
-            <div class="col-md-3 col-sm-6"><!-- col-md-3 col-sm-6 div Starts -->
+            <div class="col-md-3 col-sm-6">
+                <!-- col-md-3 col-sm-6 div Starts -->
                 <h4>Get The Latest News</h4>
                 <p class="text-muted">
-                    Subscribe here for getting new from the website     
+                    Subscribe here for getting new from the website
                 </p>
 
                 <form action="" method="post">
@@ -87,8 +94,8 @@
                     <a href="#"><i class="fa fa-twitter"></i></a>
                     <a href="#"><i class="fa fa-google"></i></a>
                     <a href="#"><i class="fa fa-envelope"></i></a>
-                    
-                    
+
+
                 </p>
             </div><!-- col-md-3 col-sm-6 div Ends -->
 
@@ -97,8 +104,10 @@
 </div><!-- Footer div with id Ends -->
 
 
-<div id="copyright"><!-- Copyright div Starts -->
-    <div class="container"><!-- Container div Ends -->
+<div id="copyright">
+    <!-- Copyright div Starts -->
+    <div class="container">
+        <!-- Container div Ends -->
         <div class="col-md-6">
             <p class="pull-left">All Rights Reserved&copy; 2020-2021 ecom.com</p>
         </div>
@@ -109,3 +118,6 @@
         </div>
     </div>
 </div><!-- Copyright div Ends -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
